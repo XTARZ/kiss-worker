@@ -1,5 +1,6 @@
 {
   "name": "kiss-worker",
+  "packageManager": "yarn@4.10.3",
   "version": "0.0.0",
   "author": "Gabe<yugang2002@gmail.com>",
   "devDependencies": {
