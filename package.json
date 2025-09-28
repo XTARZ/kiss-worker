@@ -8,8 +8,14 @@
   "private": true,
   "scripts": {
     "start": "wrangler dev",
-    "build": "wrangler build",
     "publish": "wrangler publish",
     "deploy": "wrangler publish && wrangler secret put AUTH_VALUE"
+  },
+  "cloudflare": {
+    "bindings": {
+      "APP_KEY": {
+        "description": "插件中的「数据同步密钥」"
+      }
+    }
   }
 }
